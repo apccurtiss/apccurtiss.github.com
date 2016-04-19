@@ -1,0 +1,24 @@
+#navbar {
+   
+}
+
+#nametag {
+   margin-top: 50px;
+   color: #575;
+   text-align: center;
+   font-size: 2em;
+   font-family: verdana;
+}
+
+#content {
+   text-align: center;
+}
+
+p {
+   margin-top: 50px;
+   text-align: center;
+}
+
+a {
+   color: #9B9;
+}
