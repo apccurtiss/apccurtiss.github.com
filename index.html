@@ -1,29 +1,124 @@
 <!DOCTYPE html>
 
 <!--  
-   I know handwritten HTML is a bit old-school, but it's for learning purposes.
-   And besides, maybe I want my webpage to load without downloading 50k of font packages and Javascript.
+	I know handwritten HTML is a bit old-school, but it's for learning purposes.
+	And besides, maybe I want my webpage to load without downloading 50k of font packages and Javascript.
 -->
 
 <html lang="en-US">
-<head>
-   <meta charset="UTF-8"/>
-   <title>Alexander Curtiss</title>
-   <link rel="icon" type="image/ico" href="favicon.ico">
-   <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-   <div id="navbar">
-      <!-- todo -->
-   </div>
-   <div id="nametag">
-      Alexander Curtiss
-   </div>
-   <div id="content">
-      <a href="resume.pdf">Resume</a>
-   </div>
-   <p style="color: #777;">
-      [This site is very much under construction. More later.]
-   </p>
-</body>
-</html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Alexander Curtiss</title>
+		<link rel="icon" type="image/ico" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="nametag">
+			<b style="color: #AAA">Alexander</b><span style="color: #CCC">Curtiss</span>
+		</div>
+		<div id="contact">
+			alex@alexandercurtiss.com
+		</div>
+		<div id="navbar">
+			<a href="index.html">
+				<div class="button" id="selected">
+					resume
+				</div>
+			</a>
+			<a href="portfolio.html">
+				<div class="button">
+					portfolio
+				</div>
+			</a>
+			<a href="tutoring.html">
+				<div class="button">
+					tutoring
+				</div>
+			</a>
+			<a href="about.html">
+				<div class="button">
+					about
+				</div>
+			</a>
+		</div>
+		<div id="content">
+		
+		<h2 class="section">Education</h2>
+			<h4 class="title">
+				<span class="date">
+					Aticipated May 2018
+				</span>
+				University of Colorado, Boulder
+			</h4>
+			<p>
+				BS in Computer Science
+				<br/>
+				GPA: 3.676
+			</p>
+			
+			<h2 class="section">Skills</h2>
+			<div class="skill">C/C++</div><div class="proficiency">Adept</div>
+			<div class="skill">Unix systems</div><div class="proficiency">Adept</div>
+			<div class="skill">OpenGL</div><div class="proficiency">Proficient</div>
+			<div class="skill">Python</div><div class="proficiency">Intermediate</div>
+			<div class="skill">x86 assembly</div><div class="proficiency">Intermediate</div>
+			<div class="skill">Java</div><div class="proficiency">Beginner</div>
+			<div class="skill">Scala</div><div class="proficiency">Beginner</div>
+			
+			<h2 class="section">Work experience</h2>
+			<h4 class="title">
+				<span class="date">
+					August 2012 – August 2015
+				</span>
+				Science and Technology Corporation (STC), on contract to the National Oceanic and Atmospheric Administration (NOAA) Boulder Lab
+			</h4>
+			<p>
+				Web Development Assistant: Helped design and implement a web-based climate data access portal using Java and Matlab.
+			</p>
+			
+			<h4 class="title">
+				<span class="date">
+					August 2015 – Present
+				</span>
+				University of Colorado, Boulder
+			</h4>
+			<p>
+				Course Assistant: Provided tutoring to introductory and intermediate computer science courses on topics including Python, C++, data structures, algorithms, and computer systems.
+			</p>
+			<h2 class="section">Achievements</h2>
+			<p>
+				<h4 class="title">
+					<span class="date">
+						April 2015
+					</span>
+				3rd place in the HackCU hackathon</h4>
+				<p>
+					Created Personal Emails, an app that gave users information to better communicate with contacts based on their email history. 
+					https://github.com/jkirlans5282/personalEmails
+				</p>
+				<h4 class="title">
+					<span class="date">
+						April 2016
+					</span>
+					3rd place in Twitter’s Free Speech contest at the HackCU hackathon
+				</h4>
+				<p>Created Spread the Word, a social network that communicates over a mesh network of Bluetooth devices without needing an internet connection. 
+					https://github.com/Hovestar/SpreadTheWord
+				</p>
+				<h2>Other</h2>
+				
+				<h4>
+					<span class="date">
+						March 2016 - present
+					</span>
+				Member of the University of Colorado IT Student Governance Board</h4>
+				<h4>
+					<span class="date">
+						May 2016 - present
+					</span>
+					Co-president of the CU Ethical Hacking Club
+				</h4>
+			</p>
+		</div>
+	</body>
+</html>				

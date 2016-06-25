@@ -1,24 +1,85 @@
-#navbar {
-   
+#nametag {
+	font-size: 2em;
+	font-family: verdana;
 }
 
-#nametag {
-   margin-top: 50px;
-   color: #575;
-   text-align: center;
-   font-size: 2em;
-   font-family: verdana;
+#contact {
+	font-style: italic;
+	font-size: 0.8em;
+	color: #999;
+}
+
+#navbar {
+	margin-top: 25px;
+	margin-left: 0px;
 }
 
 #content {
-   text-align: center;
+	float: none;
+	color: #999;
+	margin-left: 10px;
+	margin-top: 100px;
 }
 
-p {
-   margin-top: 50px;
-   text-align: center;
+#selected {
+	border-bottom: 3px solid #444;
+	font-weight: bold;
+	color: #444;
 }
 
-a {
-   color: #9B9;
+.button {
+	float: left;
+	text-align: center;
+	font-size: 1eu;
+	color: #777;
+	width: 75px;
+	border-bottom: 1px dotted #777;
+	padding-top: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	margin-top:4px;
+}
+
+.button:hover {
+	color: #AAA;
+	border-bottom-color: #AAA;
+}
+
+.date {
+	font-style: italic;
+	font-weight: bold;
+	color: #555;
+	display: block;
+	margin-bottom: 3px;
+}
+
+.skill {
+	float: left;
+	width: 120px;
+	margin-bottom: 2px;
+}
+
+.proficiency {
+	margin-bottom: 2px;
+}
+
+h2 {
+	color: #222;
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+
+h4 {
+	color: #333;
+}
+
+body {
+	width: 500px;
+	margin-left: 90px;
+	margin-top: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
 }
