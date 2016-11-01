@@ -6,7 +6,7 @@
 #contact {
 	font-style: italic;
 	font-size: 0.8em;
-	color: #999;
+	color: #333;
 }
 
 #navbar {
@@ -16,15 +16,18 @@
 
 #content {
 	float: none;
-	color: #999;
-	margin-left: 10px;
-	margin-top: 100px;
+	color: #333;
+	margin-top: 20px;
 }
 
 #selected {
 	border-bottom: 3px solid #444;
 	font-weight: bold;
 	color: #444;
+}
+
+#indent {
+	margin-left: 20px;
 }
 
 .button {
@@ -66,8 +69,8 @@
 
 h2 {
 	color: #222;
-	font-family: Georgia, serif;
 	font-style: italic;
+	font-size: 20px;
 }
 
 h4 {
@@ -77,8 +80,8 @@ h4 {
 body {
 	width: 500px;
 	margin-left: 90px;
-	margin-top: 50px;
-	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 40px;
+	font-family: Verdana;
 }
 
 html {
