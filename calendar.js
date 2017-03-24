@@ -12,7 +12,7 @@ $(document).ready(function() {
     defaultView: 'agendaWeek',
     minTime: '08:00:00',
     maxTime: '19:00:00',
-    height: 606,
+    height: 'auto',
     allDaySlot: false,
     editable: false,
     events: [
