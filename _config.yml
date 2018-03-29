@@ -1,0 +1,23 @@
+firstName: Alexander
+lastName: Curtiss
+title: Alexander Curtiss
+description: My Personal Blog
+author: Alexander Curtiss
+logo: /hcz-jekyll-blog/static/img/avatar.png
+github: https://github.com/apccurtiss
+
+baseurl: ""
+url: ""
+
+allowsearch: true
+
+google_analytics: UA-96092824-1
+
+enableTags: true
+tagarray: []
+
+paginate: 20
+per_page: 20
+paginate_path: "blog/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]

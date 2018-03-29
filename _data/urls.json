@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Home",
+    "url": "/",
+    "icon": "fa-home",
+  },
+  {
+    "text": "Resume",
+    "url": "/resume.pdf",
+    "icon": "fa-graduation-cap",
+  },
+  {
+    "text": "Projects",
+    "url": "/projects",
+    "icon": "fa-desktop"
+  },
+  {
+    "text": "Blog",
+    "url": "/blog",
+    "icon": "fa-comments"
+  },
+  {
+    "text": "Github",
+    "url": "https://github.com/apccurtiss",
+    "icon": "fa-github",
+    "target": blank
+  },
+  {
+    "text": "XML Feed",
+    "url": "/feed.xml",
+    "icon": "fa-feed",
+    "target": blank
+  }
+]

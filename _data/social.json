@@ -1,0 +1,14 @@
+[
+  {
+    "icon": "fa-envelope",
+    "link": "mailto:alex@alexandercurtiss.com"
+  },
+  {
+    "icon": "fa-github",
+    "link": "https://github.com/apccurtiss/"
+  },
+  {
+    "icon": "fa-linkedin",
+    "link": "https://www.linkedin.com/in/apccurtiss/"
+  },
+]

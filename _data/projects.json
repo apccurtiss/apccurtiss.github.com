@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Compilamum",
+		"image": "marmalum_logo.png",
+		"url": "https://github.com/apccurtiss/project-compilamum",
+		"date": "Nov 2017",
+		"tags": ["Scala", "Language", "Compiler", "Javascript"]
+	},
+	{
+		"name": "C.js",
+		"image": "cjs.png",
+		"url": "https://www.alexandercurtiss.com/cjs/",
+		"date": "Nov 2017",
+		"tags": ["C", "Language", "Javascript"]
+	},
+	{
+		"name": "yourCUinfo",
+		"image": "yourCUinfo.png",
+		"url": "http://yourCUinfo.com",
+		"date": "Jan 2017",
+		"tags": ["Selenium","Python"]
+	},
+]
