@@ -4,8 +4,10 @@ layout: default
 <div class="post-content well">
 <article class="content">
     <div class="post">{{ content }}</div>
-    <hr />
-    {% include share-page.html %}
+    {% if site.share-posts %}
+      <hr />
+      {% include share-page.html %}
+    {% endif %}
 </article>
 <hr />
 {% assign hasSimilar = '' %}
@@ -45,12 +47,9 @@ layout: default
   {% endif %}
 </div>
 
-
-<div class="disqus-comments">
+<!-- <div class="disqus-comments">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
-        /* <![CDATA[ */
-
         var disqus_shortname = "{{ site.disqus_shortname }}";
         var disqus_identifier = "{{ site.url }}_{{ page.title }}";
         var disqus_title = "{{ page.title }}";
@@ -61,7 +60,26 @@ layout: default
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
-    /* ]]> */
     </script>
+</div> -->
+<div class="disqus-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    alert("Start");
+    var disqus_config = function () {
+      this.page.url = "{{ site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "{{ site.url }}_{{ page.title }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    alert("Configed");
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'http://alexandercurtiss.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+    alert("End");
+  </script>
+
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 </div>
